@@ -1,0 +1,245 @@
+@font-face {
+    font-family: "Museo Sans Cyrl";
+    src:
+        local("Museo Sans Cyrl"),
+        url("../shrifti/MuseoSansCyrl.otf") format("woff");
+    font-weight: 300;
+    font-style: notmal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Evolventa";
+    src:
+        local("Evolventa"),
+        url("../shrifti/Evolventa400.woff") format("woff");
+    font-weight: 400;
+    font-style: notmal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Evolventa";
+    src:
+        local("Evolventa"),
+        url("../shrifti/Evolventa700.woff") format("woff");
+    font-weight: 700;
+    font-style: notmal;
+    font-display: swap;
+}
+
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-left: 200px;
+    padding-top: 15px;
+}
+
+.header {
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+
+
+
+.VK{
+    margin-left: 120px;
+    margin-top: -335px;
+    transform: translate(300px, 0px);
+}
+
+
+
+.hero-title {
+    color: rgb(0, 0, 0);
+    font-family: Evolventa;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+
+    padding-top: 200px;
+    padding-left: 200px;
+
+
+}
+
+.hero-description {
+    color: rgb(0, 0, 0);
+font-family: Evolventa;
+font-size: 22px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+
+    padding-top: 20px;
+    padding-left: 200px;
+
+}
+
+
+
+
+.hero-btn{
+font-family: Evolventa;
+font-size: 20px;
+font-weight: 700;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: center;
+
+padding-top: 50px;
+    padding-left: 400px;
+
+    text-decoration: none;
+
+
+}
+
+.LIN{
+    margin-left: -1300px;
+    margin-top: -9px;
+
+}
+
+.LIN2 {
+    margin-left: -70px;
+    margin-top: -16px;
+
+}
+
+.LIN3 {
+    margin-left: 1200px;
+    margin-top: -16px;
+
+}
+
+.RAB{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 380px;
+
+}
+
+
+
+.inf{
+    margin-left: -90;
+    margin-top: -30px;
+
+}
+
+.inf {
+    position:absolute;
+    color: rgb(0, 0, 0);
+    font-family: Museo Sans Cyrl;
+    font-size: 16px;
+    text-decoration: none;
+
+    transform: translate(620px, 1px);
+}
+.inf:hover::before {
+    left: 0;
+    right: 0;
+    transition: 300ms;
+}
+.inf::before {
+    background: rgba(0, 0, 0, .702);
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 100%;
+    position: absolute;
+    right: 100%;
+    transition: right 0s 200ms, left 200ms
+}
+
+.info {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: Museo Sans Cyrl;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: -30px;
+    margin-left: 10;
+    transform: translate(470px, 0px);
+}
+.info:hover::before {
+    left: 0;
+    right: 0;
+    transition: 300ms;
+}
+.info::before {
+    background: rgba(0, 0, 0, .702);
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 100%;
+    position: absolute;
+    right: 100%;
+    transition: right 0s 200ms, left 200ms
+}
+
+
+
+
+
+body {
+    background: linear-gradient(to right, #610064, #ea4bff);
+    color: white; /* Цвет текста для контраста */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+    height: 100vh; /* Задает высоту для полной страницы */
+}
+
+.outlined-button{
+position: absolute;
+transform: translate(-550px, 400px);
+
+padding: 20px 70px; /* Отступы внутри кнопки */
+    font-size: 20px; /* Размер текста */
+    color: #000000; /* Цвет текста */
+    border: 2px solid #000000; /* Цвет и толщина рамки */
+    background-color: transparent; /* Прозрачный фон */
+    border-radius: 10px; /* Скругление углов */
+    cursor: pointer; /* Стиль курсора при наведении */
+    transition: background-color 0.3s, color 0.3s; /* Переход для анимации */
+
+    text-decoration: none;
+}
+
+.outlined-button:hover {
+    background-color: #f849f8; /* Цвет фона при наведении */
+    color: #000000; /* Цвет текста при наведении */
+}
+
+.Logi{
+    position: absolute;
+    transform: translate(80px, -48px);
+
+    color: rgb(0, 0, 0);
+    font-family: Evolventa;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.LIN4{
+    margin-left: 600px;
+    margin-top: -16px;
+}
+
+
+
+
